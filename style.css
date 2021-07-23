@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    background: #11D4C5;
+    background: -webkit-linear-gradient(right, #11D4C5, #990BDA);
+    background: -moz-linear-gradient(right, #11D4C5, #990BDA);
+    background: linear-gradient(to left, #11D4C5, #990BDA);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 30px;
+    flex-direction: row;
+}
+
+.button {
+    list-style-type: none;
+    padding: 10px 32px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    transition: all 0.5 ease-out;
+    margin: 10px 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: white;
+    opacity: 0.5;
+}
+
+.footer {
+    width: 100%;
+    background-color: #333;
+    opacity: 0.5;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    color: white;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 20%;
+    transition: 0.3s;
+    margin: 10px 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container-description {
+    padding: 2px 16px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+}
+
+.heading-card {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.heading-card p {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Noto Sans', sans-serif;
+}
